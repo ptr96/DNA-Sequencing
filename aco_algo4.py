@@ -179,15 +179,15 @@ if __name__ == "__main__":
         Q = 0.7
         alfa = 0.7
         beta = 5
-        colony_size = 50
-        steps = 20
+        colony_size = 150
+        steps = 5
 
         best_path = []
         best_result = 0
 
         filename1 = f'input/sequences_{i + 1}.txt'
         filenamedane = f'input/dane_{i + 1}.txt'
-        filenameoutput = f'output/output_{i + 1}_MROWKI_50_STEPS_20.txt'
+        filenameoutput = f'output/output_{i + 1}_MROWKI_150_STEPS_5.txt'
 
         nodes, paths = read_file(filename1)
         
